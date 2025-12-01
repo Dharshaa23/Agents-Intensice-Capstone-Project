@@ -10,16 +10,10 @@ APIAgent is a multi-agent system that fetches air quality data (live Google Sear
 ## Repository structure
 ```
 .
-├── agent/
-│   ├── apia_agent.py          # Main agent runtime script
-│   ├── tools.py              # Tool wrappers (Search stub / CSV loader)
-│   └── utils.py              # Utility functions
-├── data/
-│   └── sample_data.csv       # Fallback sample dataset
-├── docs/
-│   ├── architecture.txt
-│   └── writeup.md            # 1500-word writeup for Kaggle submission
-├── video_script.md
+├── apia_agent.py          # Main agent runtime script
+├── tools.py              # Tool wrappers (Search stub / CSV loader)
+└── utils.py              # Utility functions
+└── sample_data.csv       # Fallback sample dataset
 ├── requirements.txt
 ├── LICENSE
 └── README.md
@@ -34,7 +28,7 @@ APIAgent is a multi-agent system that fetches air quality data (live Google Sear
    ```
 2. Run the agent (uses Google Search stub by default; falls back to CSV):
    ```bash
-   python agent/apia_agent.py
+   python apia_agent.py
    ```
 
 ## Notes
