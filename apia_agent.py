@@ -1,13 +1,4 @@
-"""APIAgent - Multi-agent skeleton for the Kaggle Agents Intensive capstone.
-
-Usage:
-    python agent/apia_agent.py
-
-Notes:
-- This script uses a hybrid data strategy: try Google Search (stub) -> fallback to sample CSV.
-- Replace SearchTool.run() with ADK search tool in production.
-- No API keys are included.
-"""
+"""APIAgent - Multi-agent skeleton for the Kaggle Agents Intensive capstone."""
 import csv
 import json
 import time
